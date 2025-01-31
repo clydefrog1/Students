@@ -28,7 +28,7 @@ jobs:
     - name: Start the application
       run: npm run start &
       
-  build:
+  deploy:
     runs-on: ubuntu-latest
     needs: build_test
 
