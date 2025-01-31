@@ -26,5 +26,5 @@ jobs:
     - name: Run the unit tests in the project
       run: npm test
     - name: Start the app
-      run: npm run start
+      run: npm run start &
       
